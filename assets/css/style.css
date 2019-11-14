@@ -1,0 +1,493 @@
+body,
+html {
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.fa.fa-bars {
+    margin-top: 2vw;
+    right: 2vw;
+    position: fixed;
+    z-index: 98;
+    background-color: white;
+    padding: 1.5vh;
+    font-size: 4vh;
+    color: black;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.fa.fa-bars:hover {
+    color: rgb(192, 192, 192);
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 99;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    right: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 15vh;
+    /* Place content 15vh from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 2vh 2vh 2vh 3vh;
+    text-decoration: none;
+    font-size: 100%;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 5vh;
+    margin-right: 1%;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#parallax0 {
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* Needed to position the cutout text in the middle of the image */
+}
+
+#text0 {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 6vw;
+    /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto;
+    /* Center the text container */
+    padding: 1vw;
+    padding-top: 2.5vw;
+    width: 50%;
+    text-align: center;
+    /* Center text */
+    position: absolute;
+    /* Position text */
+    top: 50%;
+    /* Position text in the middle */
+    left: 50%;
+    /* Position text in the middle */
+    transform: translate(-50%, -50%);
+    /* Position text in the middle */
+    mix-blend-mode: screen;
+    /* This makes the cutout text possible */
+}
+
+#content0 {
+    padding: 5%;
+    color: black;
+    font-size: 3vw;
+}
+
+#parallax1 {
+    /* The image used */
+    background-image: url("../img/bg1.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* Needed to position the cutout text in the middle of the image */
+}
+
+#text1 {
+    backdrop-filter: blur(5px);
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 6vw;
+    /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto;
+    /* Center the text container */
+    padding: 1vw;
+    padding-top: 2.5vw;
+    width: 50%;
+    text-align: center;
+    /* Center text */
+    position: absolute;
+    /* Position text */
+    top: 50%;
+    /* Position text in the middle */
+    left: 50%;
+    /* Position text in the middle */
+    transform: translate(-50%, -50%);
+    /* Position text in the middle */
+    mix-blend-mode: screen;
+    /* This makes the cutout text possible */
+}
+
+#content1 {
+    padding: 5%;
+    background-color: midnightblue;
+    background-image: linear-gradient(midnightblue, #103D50);
+    color: white;
+    font-size: 3vw;
+}
+
+#parallax2 {
+    /* The image used */
+    background-image: url("../img/bg2.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* Needed to position the cutout text in the middle of the image */
+}
+
+#text2 {
+    backdrop-filter: blur(5px);
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 8vw;
+    /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto;
+    /* Center the text container */
+    padding: 1vw;
+    padding-top: 2.5vw;
+    width: 50%;
+    text-align: center;
+    /* Center text */
+    position: absolute;
+    /* Position text */
+    top: 50%;
+    /* Position text in the middle */
+    left: 50%;
+    /* Position text in the middle */
+    transform: translate(-50%, -50%);
+    /* Position text in the middle */
+    mix-blend-mode: screen;
+    /* This makes the cutout text possible */
+}
+
+#content2 {
+    padding: 5%;
+    background-color: #8BB2D3;
+    background-image: linear-gradient(#8BB2D3, #9E69E8);
+}
+
+#content2>.row {
+    justify-content: space-around;
+}
+
+#content2>#middleRow {
+    justify-content: space-evenly;
+}
+
+#parallax3 {
+    /* The image used */
+    background-image: url("../img/bg3.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* Needed to position the cutout text in the middle of the image */
+}
+
+#text3 {
+    backdrop-filter: blur(5px);
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 6vw;
+    /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto;
+    /* Center the text container */
+    padding: 1vw;
+    padding-top: 2.5vw;
+    width: 50%;
+    text-align: center;
+    /* Center text */
+    position: absolute;
+    /* Position text */
+    top: 50%;
+    /* Position text in the middle */
+    left: 50%;
+    /* Position text in the middle */
+    transform: translate(-50%, -50%);
+    /* Position text in the middle */
+    mix-blend-mode: screen;
+    /* This makes the cutout text possible */
+}
+
+#content3 {
+    padding: 5%;
+    background-color: mediumslateblue;
+    background-image: linear-gradient(mediumslateblue, rgb(49, 30, 158));
+    color: white;
+    font-size: 3vw;
+}
+
+#parallax4 {
+    background-color: black;
+    /* Height */
+    height: 30%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* Needed to position the cutout text in the middle of the image */
+}
+
+#text4 {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 6vw;
+    /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto;
+    /* Center the text container */
+    padding: 1vw;
+    padding-top: 2.5vw;
+    width: 50%;
+    text-align: center;
+    /* Center text */
+    position: absolute;
+    /* Position text */
+    top: 50%;
+    /* Position text in the middle */
+    left: 50%;
+    /* Position text in the middle */
+    transform: translate(-50%, -50%);
+    /* Position text in the middle */
+    mix-blend-mode: screen;
+    /* This makes the cutout text possible */
+}
+
+#content4 {
+    padding: 1%;
+    color: white;
+    background-color: black;
+    font-size: 2vw;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 15vw;
+    height: 15vw;
+    perspective: 1000px;
+    margin: 2vw;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+    transition: transform 0.9s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    font-size: 3vw;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.buttonload {
+    color: white;
+    font-size: 3vw;
+}
+
+.checked {
+    color: orange;
+}
+
+#cardHTML {
+    background-color: #EA6228;
+}
+
+#cardCSS {
+    background-color: #0170BA;
+}
+
+#JS {
+    width: 88%;
+}
+
+#cardJS {
+    background-color: #F0D91D;
+}
+
+#bootstrap {
+    width: 100%;
+}
+
+#cardBootstrap {
+    background-color: #58427C;
+}
+
+#jquery {
+    padding-top: 40%;
+    width: 100%;
+}
+
+#cardJquery {
+    background-color: #0C65A7;
+}
+
+#cardPHP {
+    background-color: #7478AE;
+}
+
+#mySQL {
+    width: 100%;
+}
+
+#cardMySQL {
+    background-color: #DE8A00;
+}
+
+#dotNET {
+    width: 100%;
+}
+
+#cardDotNET {
+    background-color: #0088D5;
+}
+
+/*Bouton de scroll to top*/
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 2vw;
+    /* Place the button at the bottom of the page */
+    right: 3vw;
+    /* Place the button 30px from the right */
+    z-index: 98;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    color: white;
+    /* Text color */
+    background-color: black;
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 4vh;
+    /* Increase font size */
+    mix-blend-mode: screen;
+}
+
+#myBtn:hover {
+    color: rgb(192, 192, 192);
+    /* Add a dark-grey background on hover */
+}
+
+/*Profile card*/
+.card {
+    color: black;
+    width: 33vh;
+    margin: auto;
+    text-align: center;
+    border: none;
+}
+
+a {
+    margin: 1vw;
+    text-decoration: none;
+    font-size: 5vh;
+    color: black;
+}
+
+.card>button {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 60vh;
+    }
+}

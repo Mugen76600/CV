@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <title>CV d'Alexandre</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!--Sidenav-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#parallax0">PRÉSENTATION</a>
+        <a href="#parallax1">TRANSVERSES</a>
+        <a href="#parallax2">LANGAGES</a>
+        <a href="#parallax3">EXPÉRIENCES</a>
+        <a href="#parallax4">CONTACT</a>
+    </div>
+
+    <!--Ouvrir sidenav-->
+    <button class="fa fa-bars" onclick="openNav()"></button>
+
+    <!--Remonter haut de page-->
+    <button onclick="topFunction()" id="myBtn" title="Atteindre le haut de page">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <div id="parallax0">
+        <div id="text0">PRÉSENTATION</div>
+    </div>
+
+    <div id="content0">
+        Bienvenue sur mon CV numérique. J'ai créé cette courte page pour donner un aperçu de mes compétences et de mon
+        style
+        d'une manière plus originale qu'une simple feuille ou un fichier PDF. Bien sûr, un lien vers la version
+        papier ainsi que mes coordonnées sont disponibles en bas de page. Bon scroll !
+    </div>
+
+    <div id="parallax1">
+        <div id="text1">TRANSVERSES</div>
+    </div>
+
+    <div id="content1">
+        <div class="row">
+            <div class="col">
+                <ul>
+                    <li>Anglais courant</li>
+                    <li>Autonomie</li>
+                    <li>Prise d'initiative</li>
+                    <li>Rigueur</li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>Gestion du temps</li>
+                    <li>Méthode agile</li>
+                    <li>Veille environnementale</li>
+                    <li>Travail d'équipe</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="parallax2">
+        <div id="text2">LANGAGES</div>
+    </div>
+
+    <div id="content2">
+        <div class="row">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assets/img/html.svg" alt="Logo HTML">
+                    </div>
+                    <div id="cardHTML" class="flip-card-back rounded-lg">
+                        <p>HTML</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div id="flipCardCSS" class="flip-card-front">
+                        <img src="assets/img/css.svg" alt="Logo CSS">
+                    </div>
+                    <div id="cardCSS" class="flip-card-back rounded-lg">
+                        <p>CSS</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="JS" src="assets/img/js.svg" alt="Logo JS">
+                    </div>
+                    <div id="cardJS" class="flip-card-back rounded-lg">
+                        <p>JS</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="middleRow" class="row mt-2">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="bootstrap" src="assets/img/bootstrap.svg" alt="Logo BootStrap">
+                    </div>
+                    <div id="cardBootstrap" class="flip-card-back rounded-lg">
+                        <p>BootStrap</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="jquery" src="assets/img/jquery.svg" alt="Logo jQuery">
+                    </div>
+                    <div id="cardJquery" class="flip-card-back rounded-lg">
+                        <p>jQuery</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assets/img/php.svg" alt="Logo PHP">
+                    </div>
+                    <div id="cardPHP" class="flip-card-back rounded-lg">
+                        <p>PHP</p>
+                        <div class="buttonload">
+                            <i class="fa fa-circle-o-notch fa-spin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="mySQL" src="assets/img/mysql.svg" alt="Logo mySQL">
+                    </div>
+                    <div id="cardMySQL" class="flip-card-back rounded-lg">
+                        <p>mySQL</p>
+                        <div class="buttonload">
+                            <i class="fa fa-circle-o-notch fa-spin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="dotNET" src="assets/img/dotnet.svg" alt="Logo .NET">
+                    </div>
+                    <div id="cardDotNET" class="flip-card-back rounded-lg">
+                        <p>.NET</p>
+                        <div class="buttonload">
+                            <i class="fa fa-circle-o-notch fa-spin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="parallax3">
+        <div id="text3">EXPÉRIENCES</div>
+    </div>
+
+    <div id="content3">
+        Les pages visibles ici n'ont pas vocation à montrer des projets complets ou parfaitement aboutis. Je les mets à disposition pour donner un aperçu des exercices réalisés au cours de ma formation.
+    </div>
+
+    <div id="parallax4">
+        <div id="text4">CONTACT</div>
+    </div>
+
+    <footer>
+        <div id="content4">
+            <div class="card">
+                <img src="./assets/img/portrait.jpeg" alt="Portrait du développeur" style="width:100%">
+                <h1>Alexandre Hochart</h1>
+                <h2>Web développeur full stack en formation</h2>
+                <h3>La Manufacture</h3>
+                <div>
+                    <a target="_blank" href="https://www.linkedin.com/in/alexandre-h-06976867/"><i
+                            class="fa fa-linkedin"></i></a>
+                    <a target="_blank" href="./assets/img/CV.pdf"><i class="fa fa-file-pdf-o"></i></a>
+                </div>
+                <button href="#" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="top"
+                    data-content="<u>Adresse</u> :</br>64 rue d'Ingouville</br>76600 Le Havre </br><u>Téléphone</u> : 0620367066</br><u>Mail</u> : alex.hochart@live.fr">Coordonnées</button>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <!--Bouton haut de page-->
+    <script>
+        mybutton = document.getElementById("myBtn");
+        // Bouton apparaît quand on scroll 1000px
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // Remonte en haut de page lors du clic
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+        // Largeur de la barre de navigation à 250px à l'ouverture
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        // Largeur de la barre à 0px lors de la fermeture
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+</body>
+
+</html>
