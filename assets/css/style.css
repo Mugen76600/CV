@@ -278,11 +278,31 @@ html {
 }
 
 #content3 {
+    display: flex;
+    flex-direction: column;
     padding: 5%;
     background-color: mediumslateblue;
     background-image: linear-gradient(mediumslateblue, rgb(49, 30, 158));
+}
+
+#contentText {
     color: white;
-    font-size: 3vw;
+    font-size: 2vw;
+}
+
+/* Rends les images du carousel responsive */
+.carousel-inner img {
+    max-width: 100%;
+}
+
+/* Taille du carousel */
+#demo {
+    max-width: 80%;
+}
+
+/* Applique un effet de filtre sur les images au survol de la souris (pour voir texte et boutons de navigation sur un fond blanc) */
+.carousel-inner img:hover {
+    opacity: 0.25;
 }
 
 #parallax4 {
