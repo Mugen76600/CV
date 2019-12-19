@@ -123,7 +123,7 @@ html {
 #content0 {
     padding: 5%;
     color: black;
-    font-size: 3vw;
+    font-size: 17px;
 }
 
 #parallax1 {
@@ -174,7 +174,7 @@ html {
     background-color: midnightblue;
     background-image: linear-gradient(midnightblue, #103D50);
     color: white;
-    font-size: 3vw;
+    font-size: 19px;
 }
 
 #parallax2 {
@@ -287,7 +287,7 @@ html {
 
 #contentText {
     color: white;
-    font-size: 2vw;
+    font-size: 17px;
 }
 
 /* Rends les images du carousel responsive */
